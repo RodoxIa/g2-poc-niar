@@ -1,0 +1,16 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+*.db
+*.db-journal
+data/
+audio/
+venv/
+*.log
+*.bak
+*.bak-*
+
+# local dev env
+glasses-app/.env.development.local
+.env.local

@@ -1,0 +1,14 @@
+{
+  "package_id": "ai.futurize.niar.g2",
+  "edition": "202601",
+  "name": "NIAR Assistant",
+  "version": "1.0.0",
+  "min_app_version": "2.0.0",
+  "min_sdk_version": "0.0.10",
+  "entrypoint": "index.html",
+  "permissions": [
+    { "name": "g2-microphone", "desc": "Listens to your voice through the glasses microphone so you can ask questions hands-free." },
+    { "name": "network", "desc": "Sends your question to the NIAR assistant (by Futurize IA) and shows a short reply on the lens.", "whitelist": ["eveng2.futurizeia.com"] }
+  ],
+  "supported_languages": ["en"]
+}

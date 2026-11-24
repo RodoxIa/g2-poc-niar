@@ -1,0 +1,13 @@
+{
+  "name": "g2-agent-bridge",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "HTTP bridge between Even Realities G2 glasses app and the OpenClaw/NIAR agent",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
